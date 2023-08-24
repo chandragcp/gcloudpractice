@@ -1,0 +1,2 @@
+PROJECT_ID      =   "cloud_university_compute"
+PROJECT_NAME    =   "CloudUniversityCompute"
