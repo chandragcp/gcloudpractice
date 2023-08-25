@@ -1,2 +1,27 @@
-PROJECT_ID      =   "cloud_university_compute"
-PROJECT_NAME    =   "CloudUniversityCompute"
+PROJECT_ID="nextgen-cu-compute-project"
+
+REGION_1="asia_southeast1"
+REGION_2="asia_south1"
+REGION_3="us_central1"
+REGION_4="us_east1"
+
+
+R1_Z1=$REGION_1-a
+R1_Z2=$REGION_1-b
+
+R2_Z1=$REGION_2-a
+R2_Z2=$REGION_2-b
+
+
+R3_Z1=$REGION_3-a
+R3_Z2=$REGION_3-b
+
+
+R4_Z1=$REGION_4-a
+R4_Z2=$REGION_4-b
+
+
+CUSTOM_VPC_NAME="nextgen-cu-compute-custom-vpc"
+VPC_SUBNET_MODE="custom"
+
+

@@ -2,6 +2,5 @@
 
 source cloudvariables.txt
 
-gcloud projects create $PROJECT_ID
 
-
+gcloud config set project $PROJECT_ID
