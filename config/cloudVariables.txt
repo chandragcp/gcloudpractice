@@ -1,11 +1,26 @@
+# Environment
+
+ENV="dev"
+
+# Project Info
+
 BILLING_ACCOUNT="015E1A-9AE41B-60B925"
 
 PROJECT_ID="nextgen-cu-compute-project"
+
+# Region Info
 
 REGION_1="asia-southeast1"
 REGION_2="asia-south1"
 REGION_3="us-central1"
 REGION_4="us-east1"
+
+R1_NAME="singapore-asia"
+R2_NAME="mumbai-india"
+R3_NAME="iowa-usa"
+R4_NAME="southcarolina-usa"
+
+# Zone Info
 
 
 R1_Z1=$REGION_1-a
@@ -22,8 +37,44 @@ R3_Z2=$REGION_3-b
 R4_Z1=$REGION_4-a
 R4_Z2=$REGION_4-b
 
+# Network Info
 
 CUSTOM_VPC_NAME="nextgen-cu-compute-custom-vpc"
 VPC_SUBNET_MODE="custom"
+STACK_TYPE="IPV4_ONLY"
+NETWORK_TIER="PREMIUM"
+
+SN_1_NAME=$R1_NAME-subnet
+
+SN_2_NAME=$R2_NAME-subnet
+
+SN_3_NAME=$R3_NAME-subnet
+
+SN_4_NAME=$R4_NAME-subnet
+
+SN_1_RANGE="10.0.10.0/24"
+
+SN_2_RANGE="10.0.12.0/24"
+
+SN_3_RANGE="10.0.14.0/24"
+
+SN_4_RANGE="10.0.16.0/24"
+
+# Image Info
+
+#IMAGE_NAME="ubuntu-2304-lunar-arm64-v20230810"
+
+IMAGE_NAME="ubuntu-2304-lunar-amd64-v20230810"
+
+IMAGE_PROJECT="ubuntu-os-cloud"
+
+IMAGE_FAMILY="ubuntu-2304-arm64"
 
 
+# VM Info
+
+INSTANCE_NAME="nextgen-$ENV-vm"
+
+MACHINE_TYPE=n1-standard-1
+
+BOOT_DISK_SIZE=200GB
