@@ -1,9 +1,9 @@
 PROJECT_ID="nextgen-cu-compute-project"
 
-REGION_1="asia_southeast1"
-REGION_2="asia_south1"
-REGION_3="us_central1"
-REGION_4="us_east1"
+REGION_1="asia-southeast1"
+REGION_2="asia-south1"
+REGION_3="us-central1"
+REGION_4="us-east1"
 
 
 R1_Z1=$REGION_1-a
