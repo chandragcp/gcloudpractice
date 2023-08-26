@@ -1,3 +1,5 @@
+BILLING_ACCOUNT="015E1A-9AE41B-60B925"
+
 PROJECT_ID="nextgen-cu-compute-project"
 
 REGION_1="asia-southeast1"
